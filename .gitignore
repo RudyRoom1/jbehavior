@@ -1,3 +1,4 @@
+SerenityJbehave/.idea/workspace.xml
 
 # Created by https://www.gitignore.io/api/java
 # Edit at https://www.gitignore.io/?templates=java
@@ -23,6 +24,7 @@
 *.zip
 *.tar.gz
 *.rar
+C:/Users/Yaros/IdeaProjects/GitProject/SerenityJbehave/.idea/workspace.xml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
