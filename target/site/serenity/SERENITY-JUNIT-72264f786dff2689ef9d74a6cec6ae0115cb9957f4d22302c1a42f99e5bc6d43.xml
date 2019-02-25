@@ -1,1 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Google translate test story" skipped="0" tests="1" time="16.14" timestamp="2019-02-25T02:51:29.349+02:00[Europe/Helsinki]"><testcase name="scenario description&#13;&#10;Lifecycle"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Google translate test story" skipped="0" tests="1" time="24.7" timestamp="2019-02-25T14:21:00.427+02:00[Europe/Helsinki]"><testcase name="scenario description&#13;&#10;Lifecycle"><error message="Could not instantiate class net.thucydides.core.webdriver.ProvidedDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class net.thucydides.core.webdriver.ProvidedDriver</error><system-err>Could not instantiate class net.thucydides.core.webdriver.ProvidedDriver&#13;
+Test.steps.serenity.GoogleTranslateSteps.is_the_home_page(GoogleTranslateSteps.java:14)&#13;
+Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:16)&#13;
+</system-err></testcase></testsuite>

@@ -1,6 +1,7 @@
 package Test.steps.serenity;
 
 import Test.pages.GoogleTranslatePage;
+import net.serenitybdd.core.Serenity;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
@@ -35,11 +36,19 @@ public class GoogleTranslateSteps {
         Assert.assertEquals(checkWord, googleTranslatePage.getResultField().getText());
     }
 
+//    @Step
+//    public void checkCountOfWords(String expectedCount){
+//        String actualCount = googleTranslatePage.getCountField().getText();
+//        actualCount = actualCount.substring(0, actualCount.indexOf('/'));
+//        Assert.assertEquals(expectedCount, actualCount);
+//    }
     @Step
-    public void checkCountOfWords(String expectedCount){
-        String actualCount = googleTranslatePage.getCountField().getText();
-        actualCount = actualCount.substring(0, actualCount.indexOf('/'));
-        Assert.assertEquals(expectedCount, actualCount);
+    public void checkCountOfWords(){
+        String actualText = googleTranslatePage.getCountField().getText();
+        int actualCount = Integer.parseInt(actualText.substring(0, actualText.indexOf('/')));
+        String word = (String)Serenity.getCurrentSession().get("enteredWord");
+        int lenthOfWord =word.length();
+        Assert.assertEquals(lenthOfWord, actualCount);
     }
 
     @Step

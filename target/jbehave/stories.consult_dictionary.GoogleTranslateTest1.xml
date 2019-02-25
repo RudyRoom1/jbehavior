@@ -1,0 +1,24 @@
+<story path="stories/consult_dictionary/GoogleTranslateTest1.story" title="">
+<meta>
+<property keyword="@" name="debug" value=""/>
+</meta>
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal
+
+Meta:
+@debug</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="">
+<meta>
+<property keyword="@" name="debug
+
+Lifecycle:
+Before:" value=""/>
+</meta>
+<step outcome="successful">Given the user is on the google translate page &apos;English&apos; &apos;Ukrainian&apos;</step>
+<step outcome="successful">When the user looks up the translation of the word &apos;apple&apos;</step>
+<step outcome="successful">Then they should see the translate of word &apos;яблуко&apos;</step>
+</scenario>
+</story>

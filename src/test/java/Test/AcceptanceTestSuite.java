@@ -1,11 +1,13 @@
 package Test;
 
 import net.serenitybdd.jbehave.SerenityStories;
+import net.serenitybdd.jbehave.annotations.Metafilter;
 import net.thucydides.core.webdriver.Configuration;
 
 import static net.thucydides.core.ThucydidesSystemProperty.WEBDRIVER_DRIVER;
 import static net.thucydides.core.ThucydidesSystemProperty.WEBDRIVER_PROVIDED_TYPE;
 
+@Metafilter("+debug")
 public class AcceptanceTestSuite extends SerenityStories {
     private Configuration configuration;
 

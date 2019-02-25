@@ -1,4 +1,3 @@
-Meta:
 
 Narrative:
 As a user

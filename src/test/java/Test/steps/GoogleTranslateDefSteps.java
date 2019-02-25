@@ -1,6 +1,7 @@
 package Test.steps;
 
 import Test.steps.serenity.GoogleTranslateSteps;
+import net.serenitybdd.core.Serenity;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
@@ -19,12 +20,17 @@ public class GoogleTranslateDefSteps {
 
     @When("the user looks up the translation of the word '$enteredWord'")
     public void whenTheUserLooksUpTheTranslationOfTheWordApple(String enteredWord) {
+        Serenity.getCurrentSession().put("enteredWord",enteredWord);
         googleTranslateSteps.enterWord(enteredWord);
     }
 
-    @Then("number of characters must be '$numberOfChar'")
-    public void thenNumberOfCharactersMustBe(String numberOfChar) {
-        googleTranslateSteps.checkCountOfWords(numberOfChar);
+//    @Then("number of characters must be '$numberOfChar'")
+//    public void thenNumberOfCharactersMustBe(String numberOfChar) {
+//        googleTranslateSteps.checkCountOfWords(numberOfChar);
+//    }
+    @Then("verify count of character")
+    public void thenNumberOfCharactersMustBe() {
+        googleTranslateSteps.checkCountOfWords();
     }
 
     @Then("the user looks up the definition of the word  '$definition'")

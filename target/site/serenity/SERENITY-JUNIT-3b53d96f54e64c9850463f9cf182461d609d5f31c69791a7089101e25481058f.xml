@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Google translate test2" skipped="0" tests="1" time="5.4" timestamp="2019-02-25T16:44:39.467+02:00[Europe/Helsinki]"><testcase name="scenario description"><error message="The following error occurred: Expected condition failed: waiting for GoogleTranslatePage.countField to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-613', ip: '10.2.109.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for GoogleTranslatePage.countField to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.2.109.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for GoogleTranslatePage.countField to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.2.109.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown&#13;
+Test.steps.serenity.GoogleTranslateSteps.checkCountOfWords(GoogleTranslateSteps.java:47)&#13;
+Test.steps.GoogleTranslateDefSteps.thenNumberOfCharactersMustBe(GoogleTranslateDefSteps.java:33)&#13;
+</system-err></testcase></testsuite>

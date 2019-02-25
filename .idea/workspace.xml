@@ -1,7 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c22c1d65-c511-4bf2-ba88-a591516724d4" name="Default Changelist" comment="" />
+    <list default="true" id="c22c1d65-c511-4bf2-ba88-a591516724d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hs_err_pid11128.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid12568.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid12904.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid5464.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replay_pid12568.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0264a510f8189d6301d4f1d4d73bd93161e51d8d72d26739cbd928bb10022b7c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/08c8d080e573521fec632730a807b298b03647be1724ac4b0d26ecbd0440cf51.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/18710508b37fb9eff97a9dc23cc723a8d7d32ab7891422602b3b38bc88caf381.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/18710508b37fb9eff97a9dc23cc723a8d7d32ab7891422602b3b38bc88caf381.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/18b087bcb3d5d91c63e3cc35b89f2167e32391a67a17bac2faca0fe6cc1ea5fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1f8278e470cb36ca45f64130258d14ce52f59886b13dcb00d0c076dc545951b3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1f8278e470cb36ca45f64130258d14ce52f59886b13dcb00d0c076dc545951b3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/210551df51c36f766c995c888e8e11dafc2278d0d103e1da7ab4e12d422653f4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/25ed9e0d993c3505be54cfe886d4b3c19808f254a4e0878605db4f28a0207d24.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/25ed9e0d993c3505be54cfe886d4b3c19808f254a4e0878605db4f28a0207d24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2721ece3816122fbe846150d58dfee5ba6664b4a516623e28daa10d6a9df028c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2af1999a5ee337808868acc65a1dcaebab96d48e8aaa6cd99e5ac320ff9e7d8c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2be5ac36aac02eaac6da56df2abb044d58653b7638254013c6204b5503d77252.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2ec41ec5e749860eecaba26e78cc29c48f47e47b254aed434fb492eb0dcbae49.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2ec41ec5e749860eecaba26e78cc29c48f47e47b254aed434fb492eb0dcbae49.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2fa4457be005190669e61be2d9912446a0e63740728f93c8d611541d314a86ab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/37c16caf1a318ec285566c601e1dd79cc1e3fb1e7797f46413ad59c2607b5956.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3ccaac68986c3ed591a24856f06acf76817423c26265aa79864d1c0960131e65.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3ccaac68986c3ed591a24856f06acf76817423c26265aa79864d1c0960131e65.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/41fe9731f08f5b0c5c19593f559a84f2ab1cfdcbf5a14b88b78ba51249e6480f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/456f8ee6220fffc81dda27fcae2b797fd3796c08a189f5112f97d57ac2801062.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/456f8ee6220fffc81dda27fcae2b797fd3796c08a189f5112f97d57ac2801062.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/532571926e47eb169bc66abf84ad7fc20ca6416bbb539aa7d865e9653b95f184.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/532571926e47eb169bc66abf84ad7fc20ca6416bbb539aa7d865e9653b95f184.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5a5e81e78bd76a2e4505d300824e2c26378ded4452477feab29ac07aa9499137.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5a5e81e78bd76a2e4505d300824e2c26378ded4452477feab29ac07aa9499137.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5a5e81e78bd76a2e4505d300824e2c26378ded4452477feab29ac07aa9499137_screenshots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5cd008e2de69ce2610b6d9dd26263be9d07cb7e88da879ac6fb19892e06ff1b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/60ab811d6d85ecf36087b10bf187da29dc726bec579961208d9e064c636d6db5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/60ab811d6d85ecf36087b10bf187da29dc726bec579961208d9e064c636d6db5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/621c7610e2c75291844a8faa1558308ba0fe8215bbdb93fd2833b1872ba6b19c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6649c5f36b47157fa239dfdd0398bae2d59f3c8805c1154eb8da2c3224eb7ba6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6b86a4ae368a1add1597eb018329793d4edeaac6361992ed326044c0f296141c.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6f33787a8eb5676584a14c8a911891aaba64bcac5c6ccc5a8ad12b42f1ad62b7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8057585c050d3b003abc0dac022b7401a298195dc58e8770a20dc2127692b902.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/843094e3ef0e604307c281cb4da92521384f4c3c00afc297d5dc27c56bb06e7a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/85b07d1baa44c71cb9d50fc3ad8fcd751508f359bc7e6985faf6350b03669a8a.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/87fc89bfcc5e728c9c39ce98659e4a4cd5f6e6c84e359d7569dd747fbb7478bd.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/89e0cffb4491f2be6ce42ba114821394b04014df963fe352107e0e9a29cec183.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8fe4662d745e6a2ca1cb5e40f83cf2818d840cafaed3772770d5cc33b55af7bb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/90e85828e7370c317cc2cc13152a9c96b8413cb85f0d7509bab50112d2867a63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/94e596ddbc891d12094480635fa6f0407434c2f7c542511235539536cd72a4c0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/95f9e0c35e563e23849da56e363ec204c410725e0485b9483fb48bdd717d9c32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/97e6d939e7b57cc6f8cc4487ef45e9981f8c2cee6c967b250f6deb3df955c22e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5a5e81e78bd76a2e4505d300824e2c26378ded4452477feab29ac07aa9499137.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a18c2592e0eb95434aded9317012135bfb17d8d537e431b7feab5aa40f41d958.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a63a6cc2d94667961a3bed91919ff839f2f0ccadeda2c1bcdd54642e20e24f2f.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a63a6cc2d94667961a3bed91919ff839f2f0ccadeda2c1bcdd54642e20e24f2f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ac4964e94ec71bd546a4c5722dd41b5ecc27f5506d750a2ab16ca6cefd5e0358.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/aca15ac92b62f4a7a974e781710adc74da74368cf4df59480dcd307b6078f1b9.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b5a03c39c0982b138b91c2336c25214db31f7165c52bffe56522bc13bf770572.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b5a03c39c0982b138b91c2336c25214db31f7165c52bffe56522bc13bf770572.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bdc3d2e9b44f05cbabdcd67499a908d3efa542ca953d1b8a23edfe17450570d2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bdc3d2e9b44f05cbabdcd67499a908d3efa542ca953d1b8a23edfe17450570d2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c1df37d18d585b1b34803bd3534a169b20cd8ce8199b9cb92abdaab0a715f3ad.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c1df37d18d585b1b34803bd3534a169b20cd8ce8199b9cb92abdaab0a715f3ad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c4c30b7ddbc96daf24cd1bb8900e5c90c04b62c41109d5964ffab1a1b6a0792e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c88827f3d7105d4e3952d6d78fc3e1d3450899d6233856a75c7f9b74fc86fbc8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cace8155c585a1db0b4cd0143403d257d4b3fab9819f45294e00faa849b91d64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cace8155c585a1db0b4cd0143403d257d4b3fab9819f45294e00faa849b91d64.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cba52dd29cd2959e6f35d1c2c19a779bd8e21ae94ddba8dc576fbb41b6f62f06.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cbfe08fdcb4f9dafc87f4fb4943955d9a2b874eb3d60e8d29f88141ed0267cd3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cbfe08fdcb4f9dafc87f4fb4943955d9a2b874eb3d60e8d29f88141ed0267cd3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d0816ba87654ffcb69ece2042ffc55f0cdc7ffcc56713fcd63236a5646d6716e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d23059ac637c1d1e4fa71858eb7a03eff531a0d86d47aaeacb2154320975d1d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d47634b153e3f7badc2fd5bbe8f8a7055cb3bc844326fc5ed46939983f2ebb89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/dae81cac984dfa16e8b40c9a1ddfdf35f6e958da22bbfefe7b5ecd1bda060c7c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/dbe2a6c8a36bcd90f544d82b394272885532689ce6bea07869dfc36b403a66ed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/dbe2a6c8a36bcd90f544d82b394272885532689ce6bea07869dfc36b403a66ed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e1f1936c31eb2cef03f840ea6fe11a616e60d6f2852d2e05c18ff305cfe06437.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e1f1936c31eb2cef03f840ea6fe11a616e60d6f2852d2e05c18ff305cfe06437.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e68e256f8fd056844cd5ae655babba222a4fc59292235bdeff46ccddc52dfdcb.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/eb99680a103812a26c1299908e25589c629effa8223f4c78c21ce341f010d340.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/eb99680a103812a26c1299908e25589c629effa8223f4c78c21ce341f010d340.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ee0812c683ebc8bd5b38e1e9a34ee0ea0eabebd3cd39c1cde3d2b5744e2a0840.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/fdaf41818126ad713edf20e2088ee3ccc58c7bc6ce8412b610db41d5fe4bf935.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ff525393d9a526e1cf4f35e959346d68a260c92e4d543c1d9551dd6ce8a34fd7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ff525393d9a526e1cf4f35e959346d68a260c92e4d543c1d9551dd6ce8a34fd7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4970946584306684661.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource8056532829867527788.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_2721ece3816122fbe846150d58dfee5ba6664b4a516623e28daa10d6a9df028c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_2fa4457be005190669e61be2d9912446a0e63740728f93c8d611541d314a86ab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_5cd008e2de69ce2610b6d9dd26263be9d07cb7e88da879ac6fb19892e06ff1b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_6f33787a8eb5676584a14c8a911891aaba64bcac5c6ccc5a8ad12b42f1ad62b7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_8057585c050d3b003abc0dac022b7401a298195dc58e8770a20dc2127692b902.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_90e85828e7370c317cc2cc13152a9c96b8413cb85f0d7509bab50112d2867a63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_95f9e0c35e563e23849da56e363ec204c410725e0485b9483fb48bdd717d9c32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_d47634b153e3f7badc2fd5bbe8f8a7055cb3bc844326fc5ed46939983f2ebb89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/scaled_dae81cac984dfa16e8b40c9a1ddfdf35f6e958da22bbfefe7b5ecd1bda060c7c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AcceptanceTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/AcceptanceTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/steps/GoogleTranslateDefSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/steps/GoogleTranslateDefSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/steps/serenity/GoogleTranslateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/steps/serenity/GoogleTranslateSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/FacebookDefinititionStory.story" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/FacebookDefinititionStory.story" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTestStory.story" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest.story" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.FacebookDefinititionStory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.FacebookDefinititionStory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.FacebookDefinititionStory.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.FacebookDefinititionStory.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.FacebookDefinititionStory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.FacebookDefinititionStory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.GoogleTranslateTestStory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.GoogleTranslateTestStory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.GoogleTranslateTestStory.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.GoogleTranslateTestStory.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.GoogleTranslateTestStory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.consult_dictionary.GoogleTranslateTestStory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.FacebookDefinititionStory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.FacebookDefinititionStory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.FacebookDefinititionStory.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.FacebookDefinititionStory.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.FacebookDefinititionStory.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.FacebookDefinititionStory.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.GoogleTranslateTestStory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.GoogleTranslateTestStory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.GoogleTranslateTestStory.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.GoogleTranslateTestStory.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.GoogleTranslateTestStory.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.consult_dictionary.GoogleTranslateTestStory.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d5e4e1f2ce12d525e3947bb7c883c9e023123708b12d9b73e1f6fea2766ec8ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d5e4e1f2ce12d525e3947bb7c883c9e023123708b12d9b73e1f6fea2766ec8ae.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d5e4e1f2ce12d525e3947bb7c883c9e023123708b12d9b73e1f6fea2766ec8ae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d5e4e1f2ce12d525e3947bb7c883c9e023123708b12d9b73e1f6fea2766ec8ae.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d5e4e1f2ce12d525e3947bb7c883c9e023123708b12d9b73e1f6fea2766ec8ae.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d5e4e1f2ce12d525e3947bb7c883c9e023123708b12d9b73e1f6fea2766ec8ae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/SerenityJbehave.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/AcceptanceTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/AcceptanceTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/steps/GoogleTranslateDefSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/steps/GoogleTranslateDefSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/steps/serenity/GoogleTranslateSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/steps/serenity/GoogleTranslateSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stories/consult_dictionary/FacebookDefinititionStory.story" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stories/consult_dictionary/FacebookDefinititionStory.story" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stories/consult_dictionary/GoogleTranslateTestStory.story" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,21 +168,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTestStory.story">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest1.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest2.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest3.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test/steps/serenity/GoogleTranslateSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="163">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,8 +220,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test/steps/GoogleTranslateDefSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="66">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1690#1691#0" expanded="true" />
+                <element signature="e#1747#1748#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5.jar!/net/sf/cglib/proxy/MethodProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test/AcceptanceTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,13 +253,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test/pages/GoogleTranslatePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/LookupADefinition.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-jbehave/1.34.0/serenity-jbehave-1.34.0.jar!/net/serenitybdd/jbehave/annotations/Metafilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -66,12 +280,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Test/AcceptanceTestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/drivers/ChromeWebDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/steps/serenity/FacebookDefinitionStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/steps/DefinitionSteps.java" />
@@ -80,14 +293,20 @@
         <option value="$PROJECT_DIR$/src/test/java/Test/steps/FacebookDefStep.java" />
         <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/LookupADefinition.story" />
         <option value="$PROJECT_DIR$/src/test/java/Test/steps/serenity/GoogleTranslateTestSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/FacebookDefinititionStory.story" />
         <option value="$PROJECT_DIR$/src/test/java/Test/steps/serenity/FacebookCheckErrorStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/pages/FacebookPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/steps/FacebookDefSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/pages/GoogleTranslatePage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/FacebookDefinititionStory.story" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/steps/GoogleTranslateDefSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/AcceptanceTestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTestStory.story" />
         <option value="$PROJECT_DIR$/src/test/java/Test/steps/serenity/GoogleTranslateSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test/steps/FacebookDefSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test/steps/GoogleTranslateDefSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test/pages/GoogleTranslatePage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranlateTest3.story" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest1.story" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest2.story" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest3.story" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest.story" />
       </list>
     </option>
   </component>
@@ -103,7 +322,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -155,34 +374,6 @@
               <item name="SerenityJbehave" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerenityJbehave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerenityJbehave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerenityJbehave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerenityJbehave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SerenityJbehave" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SerenityJbehave" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -215,16 +406,24 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551055315986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551106047022" />
+    <property name="last_opened_file_path" value="C:/CTC" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Test.pages" />
+      <recent name="Test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,34 +477,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 08m 35s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 02m 43s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 11m 55s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 03m 06s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 29m 50s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 03m 37s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 30m 10s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 03m 52s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 30m 53s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 05m 21s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 48m 38s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 09m 55s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 50m 05s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 13m 19s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 51m 13s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 13m 57s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 51m 16s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 43m 53s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 02h 51m 48s.xml">
+    <history-entry file="AcceptanceTestSuite - 2019.02.25 at 16h 44m 54s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -313,7 +512,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33207262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -323,14 +522,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3537415" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.57653064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29761904" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.3537415" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -342,6 +541,11 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -351,11 +555,38 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/steps/serenity/GoogleTranslateSteps.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/steps/serenity/GoogleTranslateSteps.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>Integer.parseInt(actualText.substring(0, actualText.indexOf('/')))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Integer.parseInt(actualText.substring(0, actualText.indexOf('/'))))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Integer.getInteger(actualText.substring(0, actualText.indexOf('/')))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>String str = googleTranslatePage.getCountField().getText();
 str = str.substring(0, str.indexOf('/'));
@@ -395,57 +626,9 @@ str.contains(&quot;5&quot;);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>googleTranslatePage.getCountField().getText();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>String actualResult = &quot;&quot;;
-int size = googleTranslatePage.getDefinitionField().size();
-for (int i = 0; i &lt; size; i++) {
-    if (googleTranslatePage.getDefinitionField().get(i).getText().equals(definition)) {
-        actualResult = actualResult +(googleTranslatePage.getDefinitionField().get(i).getText());
-        return actualResult;
-    }
-
-}</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>String actualResult = &quot;&quot;;
-int size = googleTranslatePage.getDefinitionField().size();
-for (int i = 0; i &lt; size; i++) {
-    if (googleTranslatePage.getDefinitionField().get(i).getText().equals(definition)) {
-        actualResult.concat(googleTranslatePage.getDefinitionField().get(i).getText());
-        return actualResult;
-    }
-
-}</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/AcceptanceTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5.jar!/net/sf/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test/pages/ErrorCheckPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -525,23 +708,6 @@ for (int i = 0; i &lt; size; i++) {
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/LookupADefinition.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/FacebookDefinititionStory.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="7" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test/steps/FacebookDefSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -561,27 +727,44 @@ for (int i = 0; i &lt; size; i++) {
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTestStory.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/FacebookDefinititionStory.story">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/steps/GoogleTranslateDefSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test/pages/GoogleTranslatePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/pages/GoogleTranslatePage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="122" column="43" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-jbehave/1.34.0/serenity-jbehave-1.34.0.jar!/net/serenitybdd/jbehave/annotations/Metafilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/LookupADefinition.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test/AcceptanceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -590,11 +773,58 @@ for (int i = 0; i &lt; size; i++) {
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test/steps/serenity/GoogleTranslateSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="163">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5.jar!/net/sf/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test/steps/GoogleTranslateDefSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest1.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest2.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest3.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/GoogleTranslateTest.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
