@@ -1,7 +1,8 @@
 #org.jbehave.core.embedder.StoryManager
-#Thu Feb 21 12:52:23 EET 2019
-stories/consult_dictionary/FacebookDefinititionStory.story=14000
+#Mon Feb 25 02:30:48 EET 2019
+stories/consult_dictionary/FacebookDefinititionStory.story=0
 threads=1
-total=36000
-threadAverage=36000
-stories/consult_dictionary/LookupADefinition.story=22000
+total=18000
+stories/consult_dictionary/GoogleTranslateTestStory.story=18000
+threadAverage=18000
+stories/consult_dictionary/LookupADefinition.story=0

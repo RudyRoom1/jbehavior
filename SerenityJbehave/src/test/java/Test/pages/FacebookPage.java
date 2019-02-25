@@ -30,4 +30,6 @@ public class FacebookPage extends PageObject {
     public WebElementFacade getLoginButton() {
         return loginButton;
     }
+
+
 }

@@ -1,6 +1,6 @@
 package Test.steps.serenity;
 
-import Test.pages.ErrorCheck;
+import Test.pages.ErrorCheckPage;
 import Test.pages.FacebookPage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
@@ -8,7 +8,7 @@ import org.junit.Assert;
 public class FacebookCheckErrorStep {
 
     FacebookPage facebookPage;
-    ErrorCheck errorCheck;
+    ErrorCheckPage errorCheck;
 
     @Step
     public void is_the_home_page(){facebookPage.open();}
@@ -23,6 +23,6 @@ public class FacebookCheckErrorStep {
 
     @Step
     public void checkError(String error){
-        Assert.assertEquals(errorCheck.getErrorMessage(),error);
+        Assert.assertEquals(errorCheck.getErrorMessage(), error);
     }
 }

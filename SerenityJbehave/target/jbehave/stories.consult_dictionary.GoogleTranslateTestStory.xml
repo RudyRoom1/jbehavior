@@ -1,0 +1,16 @@
+<story path="stories/consult_dictionary/GoogleTranslateTestStory.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="scenario description
+Lifecycle:
+Before:">
+<step outcome="successful">Given the user is on the google translate page &apos;English&apos; &apos;Ukrainian&apos;</step>
+<step outcome="successful">When the user looks up the translation of the word &apos;apple&apos;</step>
+<step outcome="successful">Then the user looks up the definition of the word  &apos;the tree which bears apples.&apos;</step>
+<step outcome="successful">Then they should see the translate of word &apos;яблуко&apos;</step>
+<step outcome="successful">Then number of characters must be &apos;5&apos;</step>
+</scenario>
+</story>
