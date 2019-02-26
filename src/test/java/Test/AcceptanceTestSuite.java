@@ -16,6 +16,14 @@ public class AcceptanceTestSuite extends SerenityStories {
         configuration.setIfUndefined(WEBDRIVER_PROVIDED_TYPE.getPropertyName(), "mydriver");
         configuration.setIfUndefined("webdriver.provided.mydriver", "Test.drivers.ChromeWebDriver");
 //        configuration.setIfUndefined(SERENITY_OUTPUT_DIRECTORY.getPropertyName(), "target/site/serenity");
-        configuration.setIfUndefined(SERENITY_REPORT_ENCODING.getPropertyName(), "target/site/serenity");
+//        configuration.setIfUndefined(SERENITY_REPORT_ENCODING.getPropertyName(), "target/site/serenity");
+        configuration.setIfUndefined(SERENITY_OUTPUT_DIRECTORY.getPropertyName(), "target/site/serenity");
+        configuration.setIfUndefined(SERENITY_DATA_DIR.getPropertyName(), "target/site/serenity");
+        configuration.setIfUndefined(SERENITY_REPORT_SHOW_HISTORY.getPropertyName(), "true");
+        configuration.setIfUndefined(SERENITY_REPORT_SHOW_PROGRESS.getPropertyName(), "true");
+        configuration.setIfUndefined(SERENITY_REPORTS_SHOW_STEP_DETAILS.getPropertyName(), "true");
+        configuration.setIfUndefined(SERENITY_REPORT_ENCODING.getPropertyName(), "UTF-8");
+        configuration.setIfUndefined(NARRATIVE_FORMAT.getPropertyName(), "ASCIIDOC");
+        configuration.setIfUndefined(SERENITY_CONSOLE_COLORS.getPropertyName(), "true");
     }
 }

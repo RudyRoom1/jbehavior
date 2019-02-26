@@ -10,7 +10,9 @@
     <name>Sample Serenity project using JBehave and WebDriver</name>
 
     <properties>
+        <file.encoding>UTF-8</file.encoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <serenity.version>1.8.3</serenity.version>
         <serenity.jbehave.version>1.34.0</serenity.jbehave.version>
         <!--<webdriver.driver>firefox</webdriver.driver>-->
@@ -92,6 +94,7 @@
                     <systemPropertyVariables>
                         <!--<webdriver.driver>${webdriver.driver}</webdriver.driver>-->
                     </systemPropertyVariables>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
                 <executions>
                     <execution>
