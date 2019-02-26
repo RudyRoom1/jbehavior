@@ -15,6 +15,7 @@ public class AcceptanceTestSuite extends SerenityStories {
         configuration.setIfUndefined(WEBDRIVER_DRIVER.getPropertyName(), "provided");
         configuration.setIfUndefined(WEBDRIVER_PROVIDED_TYPE.getPropertyName(), "mydriver");
         configuration.setIfUndefined("webdriver.provided.mydriver", "Test.drivers.ChromeWebDriver");
-        configuration.setIfUndefined(SERENITY_OUTPUT_DIRECTORY.getPropertyName(), "target/site/serenity");
+//        configuration.setIfUndefined(SERENITY_OUTPUT_DIRECTORY.getPropertyName(), "target/site/serenity");
+        configuration.setIfUndefined(SERENITY_REPORT_ENCODING.getPropertyName(), "target/site/serenity");
     }
 }
