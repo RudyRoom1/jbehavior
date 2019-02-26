@@ -3,24 +3,17 @@
 <div class="path">stories/consult_dictionary/GoogleTranslateTest3.story</div>
 <div class="meta">
 <div class="keyword">Meta:</div>
-<div class="property">@debug </div>
-</div>
-<div class="narrative"><h2>Narrative:</h2>
-<div class="element inOrderTo"><span class="keyword inOrderTo">As a</span> user</div>
-<div class="element asA"><span class="keyword asA">I want to</span> perform an action</div>
-<div class="element iWantTo"><span class="keyword iWantTo">So that</span> I can achieve a business goal
+<div class="property">@debug
 
-Meta:
-@debug</div>
+Given the user is on the google translate page 'English' 'Ukrainian'
+When the user looks up the translation of the word 'apple'
+Then the user looks up the definition of the word  'the tree which bears apples.'</div>
 </div>
 <div class="scenario">
 <h2>Scenario: </h2>
 <div class="meta">
 <div class="keyword">Meta:</div>
-<div class="property">@debug
-
-Lifecycle:
-Before: </div>
+<div class="property">@debug </div>
 </div>
 <div class="step successful">Given the user is on the google translate page 'English' 'Ukrainian'</div>
 <div class="step successful">When the user looks up the translation of the word 'apple'</div>
