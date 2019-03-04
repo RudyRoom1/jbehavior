@@ -1,8 +1,8 @@
 #org.jbehave.core.embedder.StoryManager
-#Tue Feb 26 16:42:57 EET 2019
-stories/consult_dictionary/GoogleTranslateTest3.story=14000
+#Tue Feb 26 18:14:52 EET 2019
+stories/consult_dictionary/GoogleTranslateTest3.story=16000
 threads=1
-total=55000
-stories/consult_dictionary/GoogleTranslateTest1.story=27000
-threadAverage=55000
-stories/consult_dictionary/GoogleTranslateTest2.story=14000
+total=63000
+stories/consult_dictionary/GoogleTranslateTest1.story=30000
+threadAverage=63000
+stories/consult_dictionary/GoogleTranslateTest2.story=17000

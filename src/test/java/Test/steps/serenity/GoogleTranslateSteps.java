@@ -21,9 +21,8 @@ public class GoogleTranslateSteps {
 
     @Step
     public void selectLanguages(String firstLang, String secondLang) {
-        WebDriverWait wait = new WebDriverWait(googleTranslatePage.getDriver(),5);
-        wait.until(ExpectedConditions.visibilityOf(googleTranslatePage.getMoreButtonEng()));
-        googleTranslatePage.getMoreButtonEng().click();
+        System.out.println(googleTranslatePage.getDriver().getPageSource());
+        googleTranslatePage.getMoreButtonEng().waitUntilClickable().click();
         googleTranslatePage.getEnterEngLang().sendKeys(firstLang);
         googleTranslatePage.getEnterEngLang().sendKeys(Keys.ENTER);
         googleTranslatePage.getMoreButtonUa().click();
