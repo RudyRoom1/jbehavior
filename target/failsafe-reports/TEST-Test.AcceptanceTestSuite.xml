@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Test.AcceptanceTestSuite" time="267.2" tests="13" errors="2" skipped="4" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Yaros\IdeaProjects\GitProject\SerenityJbehave"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Yaros\IdeaProjects\GitProject\SerenityJbehave"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Yaros\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.2\plugins\maven\lib\maven3\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Yaros\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Yaros"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Yaros"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.031"/>
+  <testcase name="Given the user is on the google translate page &apos;English&apos; &apos;Ukrainian&apos;" classname="Test.steps.GoogleTranslateDefSteps" time="118.091">
+    <error message="The following error occurred: Expected enabled element was not enabled" type="net.serenitybdd.core.exceptions.SerenityManagedException">net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled
+	at Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for GoogleTranslatePage.moreButtonEng to be enabled (tried for 5 second(s) with 100 MILLISECONDS interval)
+	at Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Timed out after 50 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.24.160.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+	at Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)
+</error>
+    <system-out><![CDATA[Meta[properties={narrative=Narrative[inOrderTo=,asA=user,iWantTo=perform an action,soThat=I can achieve a business goal
+
+!--], description=, path=stories/consult_dictionary/FacebookDefinititionStory.story}] excluded by filter '+debug'
+Meta[properties={givenStories=, narrative=Narrative[inOrderTo=,asA=user,iWantTo=perform an action,soThat=I can achieve a business goal
+
+!--], examplesTable=, description=, path=stories/consult_dictionary/FacebookDefinititionStory.story, title=scenario description}] excluded by filter '+debug'
+Meta[properties={narrative=Narrative[inOrderTo=,asA=,iWantTo=,soThat=], description=, path=stories/consult_dictionary/GoogleTranslateTest1.story, debug
+
+Given=the user is on the google translate page 'English' 'Ukrainian'
+When the user looks up the translation of the word 'apple'
+Then they should see the translate of word '??????'}] excluded by filter '+debug'
+Meta[properties={narrative=Narrative[inOrderTo=,asA=,iWantTo=,soThat=], description=, path=stories/consult_dictionary/GoogleTranslateTest2.story, debug
+
+Given=the user is on the google translate page 'English' 'Ukrainian'
+When the user looks up the translation of the word 'apple'
+Then verify count of character}] excluded by filter '+debug'
+Meta[properties={narrative=Narrative[inOrderTo=,asA=,iWantTo=,soThat=], description=, path=stories/consult_dictionary/GoogleTranslateTest3.story, debug
+
+Given=the user is on the google translate page 'English' 'Ukrainian'
+When the user looks up the translation of the word 'apple'
+Then the user looks up the definition of the word  'the tree which bears apples.'}] excluded by filter '+debug'
+Meta[properties={narrative=Narrative[inOrderTo=talk better,asA=n English student,iWantTo=look up word definitions
+
+!--,soThat=], description=Lookup a definition, path=stories/consult_dictionary/LookupADefinition.story}] excluded by filter '+debug'
+Meta[properties={givenStories=, narrative=Narrative[inOrderTo=talk better,asA=n English student,iWantTo=look up word definitions
+
+!--,soThat=], examplesTable=, description=Lookup a definition, path=stories/consult_dictionary/LookupADefinition.story, title=Looking up the definition of 'apple'}] excluded by filter '+debug'
+Running story stories/consult_dictionary/GoogleTranslateTest1.story
+Meta[properties={givenStories=, narrative=Narrative[inOrderTo=talk better,asA=n English student,iWantTo=look up word definitions
+
+!--,soThat=], examplesTable=, description=Lookup a definition, path=stories/consult_dictionary/LookupADefinition.story, title=Looking up the definition of 'pear'}] excluded by filter '+debug'
+Using timeout for story GoogleTranslateTest1.story of 300 secs.
+
+(stories/consult_dictionary/GoogleTranslateTest1.story)
+Meta:
+@debug
+
+Given the user is on the google translate page 'English' 'Ukrainian'
+When the user looks up the translation of the word 'apple'
+Then they should see the translate of word '??????'
+
+Story name for stories/consult_dictionary/GoogleTranslateTest1.story => TestTag{name='Consult dictionary/Google translate test1', type='story'}
+Story name for stories/consult_dictionary/GoogleTranslateTest1.story => TestTag{name='Consult dictionary/Google translate test1', type='story'}
+Scenario: Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal
+Meta:
+@debug 
+
+Given the user is on the google translate page 'English' 'Ukrainian' (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled)
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 293508253story running with path stories/consult_dictionary/GoogleTranslateTest1.story
+[pool-1-thread-1] ERROR net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - can not find any story by path stories/consult_dictionary/GoogleTranslateTest1.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Google translate test1
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal
+-------------------------------------------------------------------(stories/consult_dictionary/GoogleTranslateTest1.story;Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal)
+[pool-1-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+[pool-1-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Latest version of chromedriver is 73.0.3683.20
+[pool-1-thread-1] INFO io.github.bonigarcia.wdm.Downloader - Using binary driver previously downloaded
+[pool-1-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Yaros\.m2\repository\webdriver\chromedriver\win32\73.0.3683.20\chromedriver.exe
+Starting ChromeDriver 73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017) on port 45145
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 04, 2019 3:36:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="Given the user is on the google translate page &apos;English&apos; &apos;Ukrainian&apos;" classname="Test.steps.GoogleTranslateDefSteps" time="71.342">
+    <error message="The following error occurred: Timed out after 50 seconds. Element not available&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;DESKTOP-613&apos;, ip: &apos;10.24.160.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException">net.serenitybdd.core.exceptions.SerenityManagedException: 
+The following error occurred: Timed out after 50 seconds. Element not available
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.24.160.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+	at Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)
+</error>
+    <system-out><![CDATA[
+net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:21)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
+	at Test.steps.serenity.GoogleTranslateSteps$$EnhancerByCGLIB$$1787a34c.selectLanguages(<generated>)
+	at Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+
+Running story stories/consult_dictionary/GoogleTranslateTest2.story
+
+(stories/consult_dictionary/GoogleTranslateTest2.story)
+Meta:
+@debug
+
+Given the user is on the google translate page 'English' 'Ukrainian'
+When the user looks up the translation of the word 'apple'
+Then verify count of character
+
+Story name for stories/consult_dictionary/GoogleTranslateTest2.story => TestTag{name='Consult dictionary/Google translate test2', type='story'}
+Story name for stories/consult_dictionary/GoogleTranslateTest2.story => TestTag{name='Consult dictionary/Google translate test2', type='story'}
+Scenario: Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal
+Meta:
+@debug 
+
+Using timeout for story GoogleTranslateTest2.story of 300 secs.
+Given the user is on the google translate page 'English' 'Ukrainian' (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Timed out after 50 seconds. Element not available
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.24.160.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown)
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Narrative
+--------------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Select languages: English, Ukrainian&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - The following error occurred: Expected enabled element was not enabled
+[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 293508253story running with path stories/consult_dictionary/GoogleTranslateTest2.story
+[pool-1-thread-1] ERROR net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - can not find any story by path stories/consult_dictionary/GoogleTranslateTest2.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Google translate test2
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal
+-------------------------------------------------------------------(stories/consult_dictionary/GoogleTranslateTest2.story;Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal)
+[pool-1-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Yaros\.m2\repository\webdriver\chromedriver\win32\73.0.3683.20\chromedriver.exe
+Starting ChromeDriver 73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017) on port 39004
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 04, 2019 3:38:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="Given the user is on the google translate page &apos;English&apos; &apos;Ukrainian&apos;" classname="Test.steps.GoogleTranslateDefSteps" time="65.453"/>
+  <testcase name="When the user looks up the translation of the word &apos;apple&apos;" classname="Test.steps.GoogleTranslateDefSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user looks up the translation of the word 'apple' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="When the user looks up the translation of the word &apos;apple&apos;" classname="Test.steps.GoogleTranslateDefSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user looks up the translation of the word 'apple' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="When the user looks up the translation of the word &apos;apple&apos;" classname="Test.steps.GoogleTranslateDefSteps" time="1.269"/>
+  <testcase name="Then they should see the translate of word &apos;яблуко&apos;" classname="Test.steps.GoogleTranslateDefSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then they should see the translate of word '??????' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then verify count of character" classname="Test.steps.GoogleTranslateDefSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then verify count of character (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user looks up the definition of the word  &apos;the tree which bears apples.&apos;" classname="Test.steps.GoogleTranslateDefSteps" time="1.189"/>
+  <testcase name="Scenario: Narrative:&#10;As a user&#10;I want to perform an action&#10;So that I can achieve a business goal" classname="Scenario: Narrative:&#10;As a user&#10;I want to perform an action&#10;So that I can achieve a business goal" time="2.097"/>
+  <testcase name="GoogleTranslateTest3.story" classname="GoogleTranslateTest3.story" time="2.097"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.473"/>
+</testsuite>

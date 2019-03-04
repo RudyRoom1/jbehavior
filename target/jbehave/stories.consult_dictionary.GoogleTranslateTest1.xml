@@ -4,14 +4,28 @@
 
 Given" value="the user is on the google translate page &apos;English&apos; &apos;Ukrainian&apos;
 When the user looks up the translation of the word &apos;apple&apos;
-Then they should see the translate of word &apos;яблуко&apos;"/>
+Then they should see the translate of word &apos;??????&apos;"/>
 </meta>
-<scenario keyword="Scenario:" title="">
+<scenario keyword="Scenario:" title="Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal">
 <meta>
 <property keyword="@" name="debug" value=""/>
 </meta>
-<step outcome="successful">Given the user is on the google translate page &apos;English&apos; &apos;Ukrainian&apos;</step>
-<step outcome="successful">When the user looks up the translation of the word &apos;apple&apos;</step>
-<step outcome="successful">Then they should see the translate of word &apos;яблуко&apos;</step>
+<step outcome="failed" keyword="FAILED">Given the user is on the google translate page &apos;English&apos; &apos;Ukrainian&apos;<failure>net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When the user looks up the translation of the word &apos;apple&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the translate of word &apos;??????&apos;</step>
+<failure>net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:21)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
+	at Test.steps.serenity.GoogleTranslateSteps$$EnhancerByCGLIB$$1787a34c.selectLanguages(&lt;generated&gt;)
+	at Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
 </scenario>
 </story>

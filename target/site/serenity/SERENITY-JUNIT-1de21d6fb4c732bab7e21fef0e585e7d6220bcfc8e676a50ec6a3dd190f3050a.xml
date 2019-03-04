@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Google translate test2" skipped="0" tests="1" time="71.37" timestamp="2019-03-04T15:38:06.073+02:00[Europe/Helsinki]"><testcase name="Narrative"><error message="The following error occurred: Timed out after 50 seconds. Element not available&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-613', ip: '10.24.160.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">The following error occurred: Timed out after 50 seconds. Element not available
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.24.160.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Timed out after 50 seconds. Element not available
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.24.160.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown&#13;
+Test.steps.serenity.GoogleTranslateSteps.selectLanguages(GoogleTranslateSteps.java:26)&#13;
+Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)&#13;
+</system-err></testcase></testsuite>

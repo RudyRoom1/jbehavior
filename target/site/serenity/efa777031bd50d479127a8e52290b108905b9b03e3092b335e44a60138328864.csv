@@ -1,6 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Facebook definitition story","scenario description","IGNORED","2019-02-25T14:20:59.651+02:00[Europe/Helsinki]","0.0","0.61"
-"Google translate test story","scenario description
-Lifecycle","ERROR","2019-02-25T14:21:00.427+02:00[Europe/Helsinki]","0.0","24.7"
-"Lookup a definition","Looking up the definition of 'pear'","SUCCESS","2019-02-21T14:33:48.356+02:00[Europe/Helsinki]","0.0","10.4"
-"Lookup a definition","Looking up the definition of 'apple'","PENDING","2019-02-25T14:21:25.347+02:00[Europe/Helsinki]","0.0","0.0"
+"Google translate test1","Narrative","FAILURE","2019-03-04T15:36:06.276+02:00[Europe/Helsinki]","0.0","118.45"
+"Google translate test2","Narrative","ERROR","2019-03-04T15:38:06.073+02:00[Europe/Helsinki]","0.0","71.37"
+"Google translate test3","Narrative","SUCCESS","2019-03-04T15:39:18.064+02:00[Europe/Helsinki]","0.0","68.7"

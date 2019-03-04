@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Google translate test1" skipped="0" tests="1" time="118.45" timestamp="2019-03-04T15:36:06.276+02:00[Europe/Helsinki]"><testcase name="Narrative"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
+Test.steps.serenity.GoogleTranslateSteps.selectLanguages(GoogleTranslateSteps.java:26)&#13;
+Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)&#13;
+</system-err></testcase></testsuite>

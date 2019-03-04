@@ -1,0 +1,12 @@
+Test\pages\FacebookPage.class
+Test\pages\DictionaryPage.class
+Test\steps\GoogleTranslateDefSteps.class
+Test\steps\serenity\GoogleTranslateSteps.class
+Test\steps\serenity\FacebookCheckErrorStep.class
+Test\steps\DefinitionSteps.class
+Test\pages\GoogleTranslatePage.class
+Test\steps\serenity\EndUserSteps.class
+Test\drivers\ChromeWebDriver.class
+Test\AcceptanceTestSuite.class
+Test\pages\ErrorCheckPage.class
+Test\steps\FacebookDefSteps.class

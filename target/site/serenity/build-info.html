@@ -36,15 +36,15 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.25],
+                ['Passing', 0.333333],
                 
-                ['Pending', 0.25],
+                ['Pending', 0],
                 
-                ['Ignored', 0.25],
+                ['Ignored', 0],
                 
-                ['Failing', 0],
+                ['Failing', 0.333333],
                 
-                ['Errors',  0.25]
+                ['Errors',  0.333333]
             ]
         ], {
 
@@ -73,25 +73,25 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 4 tests passed' },
-                {label: '1 / 4 tests pending'},
-                {label: '1 / 4 tests not executed'},
-                {label: '0 / 4 tests failed'},
-                {label: '1 / 4 errors'}
+                {label: '1 / 3 tests passed' },
+                {label: '0 / 3 tests pending'},
+                {label: '0 / 3 tests not executed'},
+                {label: '1 / 3 tests failed'},
+                {label: '1 / 3 errors'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.444444],
+                ['Passing', 0.411765],
                 
-                ['Pending', 0.055556],
+                ['Pending', 0],
                 
-                ['Ignored', 0.166667],
+                ['Ignored', 0],
                 
-                ['Failing', 0],
+                ['Failing', 0.294118],
                 
-                ['Errors', 0.333333]
+                ['Errors', 0.294118]
             ]
         ], {
 
@@ -121,11 +121,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 4 tests passed (0.444444% of all test steps)' },
-                {label: '1 / 4 tests pending'},
-                {label: '1 / 4 tests not executed'},
-                {label: '0 / 4 tests failed (0% of all test steps)'},
-                {label: '1 / 4 errors (0.333333% of all test steps)'}
+                {label: '1 / 3 tests passed (0.411765% of all test steps)' },
+                {label: '0 / 3 tests pending'},
+                {label: '0 / 3 tests not executed'},
+                {label: '1 / 3 tests failed (0.294118% of all test steps)'},
+                {label: '1 / 3 errors (0.294118% of all test steps)'}
             ]
         });
 
@@ -192,7 +192,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-02-2019 15:57</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-03-2019 15:40</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>

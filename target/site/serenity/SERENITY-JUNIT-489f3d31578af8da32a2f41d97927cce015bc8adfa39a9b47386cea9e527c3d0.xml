@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Google translate test3" skipped="0" tests="1" time="3.76" timestamp="2019-02-25T16:44:45.670+02:00[Europe/Helsinki]"><testcase name="scenario description"><failure message="expected:&lt;[the tree which bears apples.]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">expected:&lt;[the tree which bears apples.]&gt; but was:&lt;[]&gt;</failure><system-err>expected:&lt;[the tree which bears apples.]&gt; but was:&lt;[]&gt;&#13;
-Test.steps.serenity.GoogleTranslateSteps.checkDefinition(GoogleTranslateSteps.java:63)&#13;
-Test.steps.GoogleTranslateDefSteps.thenTheUserLooksUpTheDefinitionOfTheWordTheTreeWhichBearsApples(GoogleTranslateDefSteps.java:38)&#13;
-</system-err></testcase></testsuite>

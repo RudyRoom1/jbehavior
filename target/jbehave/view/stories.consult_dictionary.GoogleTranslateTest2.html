@@ -18,14 +18,34 @@ When the user looks up the translation of the word 'apple'
 Then verify count of character</div>
 </div>
 <div class="scenario">
-<h2>Scenario: </h2>
+<h2>Scenario: Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal</h2>
 <div class="meta">
 <div class="keyword">Meta:</div>
 <div class="property">@debug </div>
 </div>
-<div class="step successful">Given the user is on the google translate page 'English' 'Ukrainian'</div>
-<div class="step successful">When the user looks up the translation of the word 'apple'</div>
-<div class="step successful">Then verify count of character</div>
+<div class="step failed">Given the user is on the google translate page 'English' 'Ukrainian' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Timed out after 50 seconds. Element not available
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.24.160.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown</span></div>
+<div class="step notPerformed">When the user looks up the translation of the word 'apple' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then verify count of character <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Timed out after 50 seconds. Element not available
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-613', ip: '10.24.160.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:21)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:63)
+	at Test.steps.serenity.GoogleTranslateSteps$$EnhancerByCGLIB$$1787a34c.selectLanguages(&lt;generated&gt;)
+	at Test.steps.GoogleTranslateDefSteps.givenTheUserIsOnTheGoogleTranslatePage(GoogleTranslateDefSteps.java:18)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</pre>
 </div>
 </div>
 

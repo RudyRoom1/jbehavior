@@ -50,13 +50,13 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
-                ['Pending', 1],
-                ['Ignored', 1],
-                ['Failing', 0],
+                ['Passing', 1],
+                ['Pending', 0],
+                ['Ignored', 0],
+                ['Failing', 1],
                 ['Errors',  1],
                 ['Compromised',  0],
-                ['Untested',  0],
+                ['Untested',  2],
             ]
         ], {
             gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
@@ -83,13 +83,13 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
-                {label: '1 requirements pending'},
-                {label: '1} requirements skipped'},
-                {label: '0} requirements with failures'},
+                {label: '1 requirements tested successfully'},
+                {label: '0 requirements pending'},
+                {label: '0} requirements skipped'},
+                {label: '1} requirements with failures'},
                 {label: '1} requirements with errors'},
                 {label: '0} requirements compromised'},
-                {label: '0} requirements untested'},
+                {label: '2} requirements untested'},
             ]
         });
         // Results table
@@ -184,7 +184,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-02-2019 14:33</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-03-2019 15:36</span>
     <br style="clear:left"/>
 </div>
 
@@ -225,21 +225,21 @@
                                     </tr>
                                     <tr>
                                         <td class="summary-leading-column"><a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html">Stories</a></td>
-                                        <td>3</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td>5</td>
+                                        <td>1</td>
                                         <td>1</td>
                                         <td>0</td>
-                                            <td>0</td>
+                                        <td>2</td>
+                                            <td>2</td>
                                     </tr>
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
-                                    <td>4</td>
+                                    <td>3</td>
                                     <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                     <td></td>
                                 </tr>
                                 </body>
@@ -266,11 +266,11 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>4</td>
-            <td>1 (25%)</td>
-            <td>1 (25%)</td>
-            <td>1 (25%)</td>
-            <td>1 (25%)</td>
+            <td>3</td>
+            <td>1 (33%)</td>
+            <td>2 (67%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Manual</td>
@@ -282,15 +282,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>4</td>
-            <td>1 (25%)</td>
-            <td>1 (25%)</td>
-            <td>1 (25%)</td>
-            <td>1 (25%)</td>
+            <td>3</td>
+            <td>1 (33%)</td>
+            <td>2 (67%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">36 seconds</td>
+                <td colspan="5">4 minutes 18 seconds</td>
         </tr>
         </body>
     </table>
@@ -347,13 +347,13 @@ As a user
 I want to be able to look up the meaning of the word</div>
                     </td>
 
-                        <td class="bluetext requirementRowCell">3</td>
+                        <td class="bluetext requirementRowCell">5</td>
 
-                    <td class="greentext highlighted-value requirementRowCell">4</td>
+                    <td class="greentext highlighted-value requirementRowCell">3</td>
 <!--
                     <td class="greentext requirementRowCell">1</td>
-                    <td class="bluetext requirementRowCell">2</td>
-                    <td class="redtext requirementRowCell">0</td>
+                    <td class="bluetext requirementRowCell">0</td>
+                    <td class="redtext requirementRowCell">1</td>
                     <td class="lightorangetext requirementRowCell">1</td>
                     <td class="violettext requirementRowCell">0</td>
 -->
@@ -371,72 +371,72 @@ I want to be able to look up the meaning of the word</div>
 <table>
     <tr>
         <td width="40px">
-            <div class="small">25%</div>
+            <div class="small">33.3%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
-                 title="  - Total tests: 4
-  - Passing tests: 1 (25%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 1 (25%)
+                 title="  - Total tests: 3
+  - Passing tests: 1 (33.3%)
+  - Failing tests: 1 (33.3%)
+  - Tests with errors: 1 (33.3%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (25%)
-  - Ignored or skipped tests: 1 (25%)"
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)"
                  style="width: 125px;">
                 <div class="pendingbar"
-                     title="  - Total tests: 4
-  - Passing tests: 1 (25%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 1 (25%)
+                     title="  - Total tests: 3
+  - Passing tests: 1 (33.3%)
+  - Failing tests: 1 (33.3%)
+  - Tests with errors: 1 (33.3%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (25%)
-  - Ignored or skipped tests: 1 (25%)"
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)"
                      style="width: 125px;">
                     <div class="ignoredbar"
-                         style="width: 94px;"
-                         title="  - Total tests: 4
-  - Passing tests: 1 (25%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 1 (25%)
+                         style="width: 125px;"
+                         title="  - Total tests: 3
+  - Passing tests: 1 (33.3%)
+  - Failing tests: 1 (33.3%)
+  - Tests with errors: 1 (33.3%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (25%)
-  - Ignored or skipped tests: 1 (25%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                         <div class="compromisedbar"
-                             style="width: 62px;"
-                             title="  - Total tests: 4
-  - Passing tests: 1 (25%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 1 (25%)
+                             style="width: 125px;"
+                             title="  - Total tests: 3
+  - Passing tests: 1 (33.3%)
+  - Failing tests: 1 (33.3%)
+  - Tests with errors: 1 (33.3%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (25%)
-  - Ignored or skipped tests: 1 (25%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                             <div class="errorbar"
-                                 style="width: 62px;"
-                                 title="  - Total tests: 4
-  - Passing tests: 1 (25%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 1 (25%)
+                                 style="width: 125px;"
+                                 title="  - Total tests: 3
+  - Passing tests: 1 (33.3%)
+  - Failing tests: 1 (33.3%)
+  - Tests with errors: 1 (33.3%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (25%)
-  - Ignored or skipped tests: 1 (25%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                                 <div class="failingbar"
-                                     style="width: 31px;"
-                                     title="  - Total tests: 4
-  - Passing tests: 1 (25%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 1 (25%)
+                                     style="width: 83px;"
+                                     title="  - Total tests: 3
+  - Passing tests: 1 (33.3%)
+  - Failing tests: 1 (33.3%)
+  - Tests with errors: 1 (33.3%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (25%)
-  - Ignored or skipped tests: 1 (25%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                                     <div class="passingbar"
-                                         style="width: 31px;"
-                                         title="  - Total tests: 4
-  - Passing tests: 1 (25%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 1 (25%)
+                                         style="width: 42px;"
+                                         title="  - Total tests: 3
+  - Passing tests: 1 (33.3%)
+  - Failing tests: 1 (33.3%)
+  - Tests with errors: 1 (33.3%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (25%)
-  - Ignored or skipped tests: 1 (25%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                                     </div>
                                 </div>
                             </div>
@@ -455,79 +455,79 @@ I want to be able to look up the meaning of the word</div>
 <table>
     <tr>
         <td width="40px">
-            <div class="small">0%</div>
+            <div class="small">20%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
                  title="Search for definitions:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
+  - Passing Stories: 1 (20%
+  - Stories Failing: 1 (20%
   - Stories Failing with errors: 1
   - Compromised Stories: 0
-  - Pending Stories: 1
-  - Ignored or skipped Stories: 1
-  - Untested Stories: 0 (0%"
+  - Pending Stories: 0
+  - Ignored or skipped Stories: 0
+  - Untested Stories: 2 (40%"
                  style="width: 125px;">
                 <div class="pendingbar"
                      title="Search for definitions:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
+  - Passing Stories: 1 (20%
+  - Stories Failing: 1 (20%
   - Stories Failing with errors: 1
   - Compromised Stories: 0
-  - Pending Stories: 1
-  - Ignored or skipped Stories: 1
-  - Untested Stories: 0 (0%"
-                     style="width: 125px;">
+  - Pending Stories: 0
+  - Ignored or skipped Stories: 0
+  - Untested Stories: 2 (40%"
+                     style="width: 75px;">
                     <div class="ignoredbar"
-                         style="width: 83px;"
+                         style="width: 75px;"
                          title="Search for definitions:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
+  - Passing Stories: 1 (20%
+  - Stories Failing: 1 (20%
   - Stories Failing with errors: 1
   - Compromised Stories: 0
-  - Pending Stories: 1
-  - Ignored or skipped Stories: 1
-  - Untested Stories: 0 (0%">
+  - Pending Stories: 0
+  - Ignored or skipped Stories: 0
+  - Untested Stories: 2 (40%">
                         <div class="compromisedbar"
-                             style="width: 42px;"
+                             style="width: 75px;"
                              title="Search for definitions:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
+  - Passing Stories: 1 (20%
+  - Stories Failing: 1 (20%
   - Stories Failing with errors: 1
   - Compromised Stories: 0
-  - Pending Stories: 1
-  - Ignored or skipped Stories: 1
-  - Untested Stories: 0 (0%">
+  - Pending Stories: 0
+  - Ignored or skipped Stories: 0
+  - Untested Stories: 2 (40%">
                             <div class="errorbar"
-                                 style="width: 42px;"
+                                 style="width: 75px;"
                                  title="Search for definitions:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
+  - Passing Stories: 1 (20%
+  - Stories Failing: 1 (20%
   - Stories Failing with errors: 1
   - Compromised Stories: 0
-  - Pending Stories: 1
-  - Ignored or skipped Stories: 1
-  - Untested Stories: 0 (0%">
+  - Pending Stories: 0
+  - Ignored or skipped Stories: 0
+  - Untested Stories: 2 (40%">
                                 <div class="failingbar"
-                                     style="width: 0px;"
+                                     style="width: 50px;"
                                      title="Search for definitions:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
+  - Passing Stories: 1 (20%
+  - Stories Failing: 1 (20%
   - Stories Failing with errors: 1
   - Compromised Stories: 0
-  - Pending Stories: 1
-  - Ignored or skipped Stories: 1
-  - Untested Stories: 0 (0%">
+  - Pending Stories: 0
+  - Ignored or skipped Stories: 0
+  - Untested Stories: 2 (40%">
                                     <div class="passingbar"
-                                         style="width: 0px;"
+                                         style="width: 25px;"
                                          title="Search for definitions:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
+  - Passing Stories: 1 (20%
+  - Stories Failing: 1 (20%
   - Stories Failing with errors: 1
   - Compromised Stories: 0
-  - Pending Stories: 1
-  - Ignored or skipped Stories: 1
-  - Untested Stories: 0 (0%">
+  - Pending Stories: 0
+  - Ignored or skipped Stories: 0
+  - Untested Stories: 2 (40%">
                                     </div>
                                 </div>
                             </div>
@@ -779,27 +779,27 @@ I want to be able to update definitions in the dictionary</div>
                         </thead>
                         <tbody>
 
-                            <tr class="test-IGNORED">
-                                <td><span class="summary-icon"><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">IGNORED</span></td>
-                                <td class="IGNORED-text">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
                                     <div class="ellipsis">
 
-                                        <a href="d5e4e1f2ce12d525e3947bb7c883c9e023123708b12d9b73e1f6fea2766ec8ae.html" class="ellipsis"
-                                           title="scenario description ">
-                                            scenario description
+                                        <a href="855d9bfa1c2f4dba971f9180a2eda10e201283a065ad6bf74853b4beec8b35d8.html" class="ellipsis"
+                                           title="Narrative Element should be enabled exception: ...">
+                                            Narrative
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="IGNORED-text">3</td>
+                                <td class="FAILURE-text">5</td>
 
 
-                                <td class="IGNORED-text" data-sort="2019-02-25 14:20:59">14:20:59</td>
+                                <td class="FAILURE-text" data-sort="2019-03-04 15:36:06">15:36:06</td>
 
-                                <td class="IGNORED-text">0.61</td>
+                                <td class="FAILURE-text">118.45</td>
                             </tr>
 
                             <tr class="test-ERROR">
@@ -809,20 +809,20 @@ I want to be able to update definitions in the dictionary</div>
                                 <td class="ERROR-text">
                                     <div class="ellipsis">
 
-                                        <a href="72264f786dff2689ef9d74a6cec6ae0115cb9957f4d22302c1a42f99e5bc6d43.html" class="ellipsis"
-                                           title="scenario description Lifecycle Unsupported driver exception: Could n...">
-                                            scenario description
+                                        <a href="1de21d6fb4c732bab7e21fef0e585e7d6220bcfc8e676a50ec6a3dd190f3050a.html" class="ellipsis"
+                                           title="Narrative Element not visible exception: The fo...">
+                                            Narrative
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">6</td>
+                                <td class="ERROR-text">5</td>
 
 
-                                <td class="ERROR-text" data-sort="2019-02-25 14:21:00">14:21:00</td>
+                                <td class="ERROR-text" data-sort="2019-03-04 15:38:06">15:38:06</td>
 
-                                <td class="ERROR-text">24.7</td>
+                                <td class="ERROR-text">71.37</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -832,43 +832,20 @@ I want to be able to update definitions in the dictionary</div>
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="73b71db3808751649ad1d396806ba60601209de5c1e72dda0416d0e7da794e84.html" class="ellipsis"
-                                           title="Looking up the definition of 'pear' ">
-                                            Looking up the definition of 'pear'
+                                        <a href="2cb04e12f210cb2f76f1ec92f21fe13bb079109d4c644acb7402358c83aa148e.html" class="ellipsis"
+                                           title="Narrative ">
+                                            Narrative
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">8</td>
+                                <td class="SUCCESS-text">7</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-02-21 14:33:48">14:33:48</td>
+                                <td class="SUCCESS-text" data-sort="2019-03-04 15:39:18">15:39:18</td>
 
-                                <td class="SUCCESS-text">10.4</td>
-                            </tr>
-
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                                    
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
-                                    <div class="ellipsis">
-
-                                        <a href="7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.html" class="ellipsis"
-                                           title="Looking up the definition of 'apple' ">
-                                            Looking up the definition of 'apple'
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="PENDING-text">1</td>
-
-
-                                <td class="PENDING-text" data-sort="2019-02-25 14:21:25">14:21:25</td>
-
-                                <td class="PENDING-text">0</td>
+                                <td class="SUCCESS-text">68.7</td>
                             </tr>
                         </tbody>
                     </table>
