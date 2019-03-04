@@ -22,7 +22,9 @@ public class GoogleTranslateSteps {
     @Step
     public void selectLanguages(String firstLang, String secondLang) {
         System.out.println(googleTranslatePage.getDriver().getPageSource());
-        googleTranslatePage.getMoreButtonEng().waitUntilClickable().click();
+        googleTranslatePage.waitFor(5).seconds();
+        googleTranslatePage.waitForCondition().until(googleTranslatePage.getMoreButtonEng().waitUntilDisabled());
+        googleTranslatePage.getMoreButtonEng().click();
         googleTranslatePage.getEnterEngLang().sendKeys(firstLang);
         googleTranslatePage.getEnterEngLang().sendKeys(Keys.ENTER);
         googleTranslatePage.getMoreButtonUa().click();

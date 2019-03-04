@@ -25,5 +25,6 @@ public class AcceptanceTestSuite extends SerenityStories {
         configuration.setIfUndefined(SERENITY_REPORT_ENCODING.getPropertyName(), "UTF-8");
         configuration.setIfUndefined(NARRATIVE_FORMAT.getPropertyName(), "ASCIIDOC");
         configuration.setIfUndefined(SERENITY_CONSOLE_COLORS.getPropertyName(), "true");
+        configuration.setIfUndefined(WEBDRIVER_TIMEOUTS_IMPLICITLYWAIT.getPropertyName(), "50000");
     }
 }
